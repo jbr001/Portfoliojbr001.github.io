@@ -1,0 +1,43 @@
+h1{
+  color:darkgoldenrod;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+}
+
+.jacob{
+text-align: center;
+font-style: normal;
+font-family: 'Lato';
+color:ghostwhite
+}
+
+
+body{
+  background-color: lightskyblue;
+}
+section{
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+}
+
+.card{
+  background-color: lightyellow
+}
+h2{
+  font-family: 'Kalnia', sans-serif;
+}
+.img-fluid{
+  padding: 2%;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}

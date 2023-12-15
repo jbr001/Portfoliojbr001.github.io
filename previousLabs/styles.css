@@ -1,0 +1,63 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: rgb(168, 138, 72);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1d5f64;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #143904;
+  font: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+h4{
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 30px;
+  font-weight: 600;
+  color: brown;
+}
+p {
+  color: #2e082b;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+  width: 80%;
+  background-color: rgb(225, 31, 157);
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: large;
+}

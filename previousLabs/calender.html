@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schedule for Jacob Rodriguez - jbr001 - Fall, 2023</title>
+    <link rel="stylesheet" href="stylesLab2.css">
+  </head>
+<h3>
+  How To Define a Table
+</h3>
+<h4>
+How to define a table?
+</h4>
+<ul>
+There are six key components to defining an HTML table: Table Headers, Table Rows, Table Cells, grouping of the header content, grouping of the footer content, and Table Captions. To create a table, you use the tag &lt;table&gt;.A table header is denoted by &lt;th&gt; and it is used to define a header cell in a table. A table row is denoted by the tag &lt;tr&gt; and is used to create a row in a table. To define a cell in a table, you use the tag &lt;td&gt;. When you want to group the footer content in a table, you will use the tag &lt;tfoot&gt; and when you want to group the header content in a table, you use the tag &lt;thead&gt;. Finally, when you want to create a caption in a table, you use the tag &lt;caption&gt;, immediately after the &lt;table&gt; tag.
+</ul>
+<h4>What is the difference between colspan and rowspan?</h4>
+<ul>
+  Colspan is what is used to make a cell span over multiple columns, where rowspan does the same thing but over multiple rows.
+</ul>
+<h4>What is the difference between cells spacing and padding? </h4>
+<ul>The difference between cell spacing and padding is that the padding will put space between the edges of the cell and its content, whereas cell spacing is the space between each cell.</ul>
+<h4>How do you define table borders using CSS? How do you control border widths using CSS? </h4>
+<ul>You use the border function within CSS to define table borders. This way you can change how the borders on the cells within your table look like. To control border widths, you will use the "border-width" property to set the width of your table cell's borders. </ul>
+
+
+  <body>
+    <table border="3">
+      <caption>Jacob's Weekly Schedule</caption>
+      
+    <tr>
+      <!--HEADER-->
+      <th>Time</td>
+      <th>Monday</td>
+      <th>Tuesday</td>
+      <th>Wednesday</td>
+      <th>Thursday</td>
+      <th>Friday</td>
+      <th>Sat-Sun</td>
+    </tr>
+
+    <tr>
+      <!--6:30-->
+      <td>6:30 am</td>
+      <td rowspan="4">Sleep</td>
+      <td>Get Ready for Work</td>
+      <td rowspan="5">Sleep</td>
+      <td>Get Ready for Work</td>
+      <td rowspan="8">Sleep</td>
+      <td rowspan="10">Sleep</td>
+    </tr>
+
+    <tr>
+      <td>7 am</td>
+      <td rowspan="9"><img width="125" src="https://www.bcbcafesd.com/wp-content/uploads/2020/12/IMG_1292-scaled-e1640721135857.jpeg"><br><a href="https://www.bcbcafesd.com/">Work at BCB Cafe - Center Hall</a></td>
+      <td rowspan="9">Work at BCB Cafe - Center Hall</td>
+    </tr>
+
+    <tr>
+      <td>7:30 am</td>
+    </tr>
+
+    <tr>
+      <td>8 am</td>
+    </tr>
+
+    <tr>
+      <td>8:30 am</td>
+      <td rowspan="2">Breakfast</td>
+    </tr>
+
+    <tr>
+      <td>9 am</td>
+      <td>Breakfast</td>
+    </tr>
+
+    <tr>
+      <td>9:30 am</td>
+      <td><a href="https://shop.niu.com/products/niu-electric-kick-scooter-kqi2-pro?utm_source=google&utm_medium=cpc&utm_campaign=US_Search_Brand&gclid=CjwKCAjw-KipBhBtEiwAWjgwrEl9c3RXK_vTYxjY7yhhZ3LwLgdc_1nyv1_cnYcXtv8bfwYHVPdBshoCGaQQAvD_BwE&variant=39819804508220">Scooter to Center Hall</a></td>
+      <td>Scooter to Center Hall</td>
+    </tr>
+
+    <tr>
+      <td>10 am</td>
+      <td rowspan="2"><a href="https://courses.ucsd.edu/coursemain.aspx?section=235733">POLI 12D - Center 119</a></td>
+      <td rowspan="2">POLI 12D - Center 119</td>
+    </tr>
+
+    <tr>
+      <td>10:30 am</td>
+      <td rowspan="2">Breakfast</td>
+    </tr>
+
+    <tr>
+      <td>11 am</td>
+      <td rowspan="2"><a href="https://library.ucsd.edu/">Library</a></td>
+      <td rowspan="2">Poli 12 Discussion - Solis 110</td>
+    </tr>
+
+    <tr>
+      <td>11:30 am</td>
+      <td>Scooter to Catalyst</td>
+      <td>Lunch</td>
+      <td>Walk</td>
+      <td rowspan="3"><a href="https://www.westfield.com/united-states/utc/restaurants" >Lunch - UTC</a></td>
+    </tr>
+
+    <tr>
+      <td>12 pm</td>
+      <td rowspan="2"><a href="https://courses.ucsd.edu/coursemain.aspx?section=235570">POLI 10D at FAH 1301</a></td>
+      <td>Homework Time</td>
+      <td rowspan="2">POLI 10D - FAH 1301</td>
+      <td>Scooter to Catalyst</td>
+      <td>Library for HW</td>
+    </tr>
+
+    <tr>
+      <td>12:30 pm</td>
+      <td rowspan="3"><a href="https://catalog.ucsd.edu/courses/COMM.html">COMM 100A - Catalyst 125</a></td>
+      <td rowspan="3">COMM 100A - Catalyst 125</td>
+      <td>Scooter to Work</td>
+    </tr>
+
+    <tr>
+      <td>1 pm</td>
+      <td rowspan="2">Lunch</td>
+      <td rowspan="2">Library </td>
+      <td rowspan="11">Work at BCB Cafe - UCSD Medical Campus</td>
+      <td rowspan="4">FaceTime Vanessa</td>
+    </tr>
+
+    <tr>
+      <td>1:30 pm</td>
+    </tr>
+
+    <tr>
+      <td>2 pm</td>
+      <td rowspan="3">Library</td>
+      <td rowspan="3"><a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS 3 - Pepper Canyon 119</a></td>
+      <td rowspan="2">POLI 10 Discussion - WLH 2206</td>
+      <td rowspan="3">COGS 3 - Pepper Canyon 119</td>
+    </tr>
+
+    <tr>
+      <td>2:30 pm</td>
+    </tr>
+
+    <tr>
+      <td>3 pm</td>
+      <td rowspan="2">Lunch with Friends</td>
+      <td rowspan="2">HW Time</td>
+    </tr>
+
+    <tr>
+      <td>3:30 pm</td>
+      <td rowspan="5">Dorm downtime</td>
+      <td rowspan="6">Library</td>
+      <td>Scooter to dorm</td>
+    </tr>
+
+    <tr>
+      <td>4 pm</td>
+      <td rowspan="3"><a href="https://support.apple.com/en-us/HT204380"> FaceTime Vanessa</a></td>
+      <td>HW Time</td>
+      <td rowspan="4">Afternoon Nap</td>
+    </tr>
+    
+    <tr>
+      <td>4:30 pm</td>
+      <td rowspan="3">Afternoon Nap</td>
+    </tr>
+
+    <tr>
+      <td>5 pm</td>
+    </tr>
+
+    <tr>
+      <td>5:30 pm</td>
+      <td rowspan="2">Library</td>
+    </tr>
+
+    <tr>
+      <td>6 pm</td>
+      <td rowspan="2"><a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS 3 Lab - CSB 115</a></td>
+      <td rowspan="2">COMM 100A Discussion - MCC 201</td>
+      <td rowspan="2">Dinner with Friends</td>
+    </tr>
+
+    <tr>
+      <td>6:30 pm</td>
+      <td colspan="2">Dinner with friends</td>
+      <td>Dinner</td>
+    </tr>
+
+  </body>
+</html>
